@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge-8(Login)</title>
+    <meta name="keywords" content="Front-End Develepment, Figma" />
+    <meta name="describtion" content="html-css-challenge-login-დავალება-8" />
+    <meta name="author" content="Sh.Oboladze" />
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icons/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="icons/favicon/site.webmanifest" />
+    <!-- END favicon -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <main class="flex-cen">
+      <section class="flex-cen">
+        <!-- Illustration -->
+        <img src="./img/illustration.png" alt="Illustration" />
+        <!-- END Illustration -->
+        <!-- Login -->
+        <div class="login">
+          <!-- Login-Header -->
+          <div class="login-header flex-col-ai-left">
+            <!-- SVG-Logo -->
+            <a href="#">
+              <img src="./icons/Logo.svg" alt="Nextflow-Logo" width="30px" />
+            </a>
+            <!-- END SVG-Logo -->
+            <h1>Login to your Account</h1>
+            <p>See what is going on with your business</p>
+          </div>
+          <!-- END Login-Header -->
+          <!-- Navigation-Form -->
+          <div class="navigation-form flex-col-ai-cen">
+            <form action="https://mail.google.com/">
+              <button type="submit" class="flex-cen">
+                <!-- SVG-Gmail -->
+                <img src="./icons/gmail.svg" alt="Gmail-Logo" />
+                <!-- END SVG-Gmail -->
+                Continue with Google
+              </button>
+            </form>
+            <a href="other-email.html"
+              >------------- or Sign in with Email -------------</a
+            >
+          </div>
+          <!-- End Navigation-Form -->
+          <!-- Login-Form -->
+          <div class="login-form">
+            <form action="contact.html flex-col-ai-cen">
+              <!-- From-Line-Email -->
+              <div class="form-line rel">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="mail@abc.com" />
+                <!-- SVG-Envelope -->
+                <img
+                  src="./icons/envelope.svg"
+                  alt="Envelope-Logo"
+                  class="svg-envelope abs"
+                />
+                <!-- END SVG-Envelope -->
+              </div>
+              <!-- END From-Line-Email -->
+              <!-- From-Line-Paswword -->
+              <div class="form-line rel">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="*****************"
+                />
+                <!-- SVG-Key -->
+                <img src="./icons/key.svg" alt="Key-Logo" class="svg-key abs" />
+                <!-- END SVG-Key -->
+              </div>
+              <!-- END From-Line-Paswword -->
+              <!-- From-Line-Checkbox -->
+              <div class="checkbox">
+                <div class="form-line flex-cen-sp-bet rel">
+                  <div class="flex-cen">
+                    <input type="checkbox" id="remember" checked />
+                    <label for="remember" id="for-remember">Remember Me</label>
+                  </div>
+                  <a href="#">Forgot password?</a>
+                </div>
+              </div>
+              <!-- END From-Line-Checkbox -->
+              <!-- From-Line-Submit -->
+              <div class="form-line">
+                <input type="submit" value="login" />
+              </div>
+              <!-- END From-Line-Submit -->
+            </form>
+          </div>
+          <!-- END Login-footer -->
+          <!-- Login-footer -->
+          <div class="login-footer flex-cen">
+            <span>Not Registered Yet? <a href="#">Create an account</a></span>
+          </div>
+          <!-- END Login-footer -->
+        </div>
+        <!-- END Login -->
+      </section>
+    </main>
+  </body>
+</html>
